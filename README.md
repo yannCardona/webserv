@@ -2,9 +2,9 @@
 
 here is the full subject description: [en.subject.pdf](https://github.com/yannCardona/webserv/blob/d86a6c6284fc223ff8c0fed014e0cb8c7fec7fc4/en.subject.pdf)
 
-This project is coded in c++. It's a simple http-server.
+This project is coded in c++. It's a simple http-server (inspired by nginx).
 
-* you can serve a fully static website
+* it can serve a fully static website
 * clients can upload files
 * it has GET, POST, and DELETE methods implemented
 * it can listen to multiple ports
