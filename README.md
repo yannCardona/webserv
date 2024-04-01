@@ -9,10 +9,10 @@ This project is coded in c++. It's a simple http-server.
 * it has GET, POST, and DELETE methods implemented
 * it can listen to multiple ports
 * in the config file you can setup routes with one or multiple of the following rules/configuration:
-      turn on or off directory listing
-      define a directory or a file from where the file should be searched
-      define a list of accepted HTTP methods for the route
-      set a default file to answer if the request is a directory
-      execute CGI based on .py file extension
+        * turn on or off directory listing
+        * define a directory or a file from where the file should be searched
+        * define a list of accepted HTTP methods for the route
+        * set a default file to answer if the request is a directory
+        * execute CGI based on .py file extension
   
 
