@@ -1,0 +1,16 @@
+server {
+       listen 8080
+	host_name 127.0.0.1
+      
+       root /home/ycardona/webpage
+       #server_name example1.com
+}
+
+server {
+       listen 8080
+	host_name 127.0.0.1
+      
+      root /home/ycardona/webpage
+       server_name example2.com
+       index html/gallery.html
+}
